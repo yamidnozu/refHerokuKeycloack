@@ -1,6 +1,6 @@
 FROM jboss/keycloak:latest
 
-COPY ./keycloak/ /opt/jboss/keycloak/
+COPY ./keycloak/themes/ /opt/jboss/keycloak/themes/
 
 COPY docker-entrypoint.sh /opt/jboss/tools
 
