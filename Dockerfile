@@ -1,6 +1,8 @@
 FROM jboss/keycloak:latest
 
-MV ./keycloak/themes/ /opt/jboss/keycloak/themes/
+COPY keycloak/themes/ /opt/jboss/keycloak/themes/
+COPY files/ /files/
+RUN ls -la /keycloak/themes/*
 
 COPY docker-entrypoint.sh /opt/jboss/tools
 
