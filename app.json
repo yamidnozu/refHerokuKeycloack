@@ -1,5 +1,5 @@
 {
-    "name": "Deploy de Keycloak en Heroku",
+    "name": "Keycloak Deployment to Heroku",
     "description": "Deployment of the Keycloak Identity and Access Management Solution to Heroku using a slightly adapted version of the official Docker container image",
     "keywords": [
         "identity",

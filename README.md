@@ -16,4 +16,3 @@ enough to properly run keycloak, but you can scale things up based on
 your needs after some testing.
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-# refHerokuKeycloack
